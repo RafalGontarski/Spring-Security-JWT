@@ -1,6 +1,6 @@
 package com.codeMaker.security.token;
 
-import com.codeMaker.security.user.model.User;
+import com.codeMaker.security.user.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -17,7 +17,7 @@ public class Token {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     @Column(unique = true)
     public String token;

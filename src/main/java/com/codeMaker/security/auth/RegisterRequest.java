@@ -1,6 +1,6 @@
 package com.codeMaker.security.auth;
 
-import com.codeMaker.security.user.model.Role;
+import com.codeMaker.security.user.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

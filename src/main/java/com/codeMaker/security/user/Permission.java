@@ -1,4 +1,4 @@
-package com.codeMaker.security.user.model;
+package com.codeMaker.security.user;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

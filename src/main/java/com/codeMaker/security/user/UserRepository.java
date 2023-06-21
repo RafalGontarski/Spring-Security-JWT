@@ -1,6 +1,5 @@
-package com.codeMaker.security.user.repository;
+package com.codeMaker.security.user;
 
-import com.codeMaker.security.user.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

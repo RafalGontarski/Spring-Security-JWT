@@ -1,4 +1,4 @@
-package com.codeMaker.security.user.model;
+package com.codeMaker.security.user;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -9,7 +9,14 @@ import java.util.Set;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.codeMaker.security.user.model.Permission.*;
+import static com.codeMaker.security.user.Permission.ADMIN_CREATE;
+import static com.codeMaker.security.user.Permission.ADMIN_DELETE;
+import static com.codeMaker.security.user.Permission.ADMIN_READ;
+import static com.codeMaker.security.user.Permission.ADMIN_UPDATE;
+import static com.codeMaker.security.user.Permission.MANAGER_CREATE;
+import static com.codeMaker.security.user.Permission.MANAGER_DELETE;
+import static com.codeMaker.security.user.Permission.MANAGER_READ;
+import static com.codeMaker.security.user.Permission.MANAGER_UPDATE;
 
 @RequiredArgsConstructor
 public enum Role {
