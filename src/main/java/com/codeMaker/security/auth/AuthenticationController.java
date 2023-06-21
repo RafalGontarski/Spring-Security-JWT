@@ -1,6 +1,7 @@
 package com.codeMaker.security.auth;
 
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -33,7 +34,7 @@ public class AuthenticationController {
     @PostMapping("/refresh-token")
     public void refreshToken(
             HttpServletRequest request,
-            HttpServletRequest response
+            HttpServletResponse response
     ) throws IOException {
         service.refreshToken(request, response);
     }
