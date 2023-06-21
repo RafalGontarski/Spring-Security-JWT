@@ -1,4 +1,4 @@
-package token;
+package com.codeMaker.security.token;
 
 import com.codeMaker.security.user.model.User;
 import jakarta.persistence.*;

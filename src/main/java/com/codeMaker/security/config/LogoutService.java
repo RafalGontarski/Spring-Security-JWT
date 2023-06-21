@@ -7,7 +7,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.logout.LogoutHandler;
 import org.springframework.stereotype.Service;
-import token.TokenRepository;
+import com.codeMaker.security.token.TokenRepository;
 
 @Service
 @RequiredArgsConstructor
